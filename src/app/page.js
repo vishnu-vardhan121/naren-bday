@@ -24,20 +24,24 @@ export default function WishPage() {
 
   return (
     <main className="min-h-screen bg-gradient-to-b from-pink-100 to-pink-300 py-8">
-      <div className="bg-[url('/im1.jpg')]">
-        <h1 className="text-3xl font-bold text-center text-pink-800 mb-6 px-4">
-        🎉 Happy Birthday pilagosss 🎂
-      </h1>
+      <div className=" relative  h-[700px] w-full  shadow-lg bg-center bg-cover bg-[url('/im1.jpg')]">
+        <h1 className="text-2xl font-bold text-center text-pink-800 mb-6 px-1">
+        Happy Birthday pilagosss 🎂
+        </h1>
+        <p className="text-[17px] font-bold px-1 leading-[1.5] absolute bottom-3 bg-black/45">
+          Happy Birthday pilaga , <br />
+          happy bday ra ♾ <br />
+          aa roju hurt aina , antha easy ga normal kaatle, but i remine every single day ra 💗
+          happy bday ra , sorry.. but ...
+          okay good night ra ,,143 ra 💗....
+        </p>
       </div>
 
       <section className="space-y-8">
         {images.map((img, index) =><div key={index}><Image src={img.src} width={360} height={700} alt={"happy bday ra"} /></div>)}
       </section>
-
-      <p className="text-center text-lg text-pink-900 font-medium mt-10 px-4">
-        You’re not just a friend, you’re family 💖<br />
-        Here’s to many more memories together! 🥳
-      </p>
+      <p className="px-2 bg-inherit text-2xl font-semibold">konni photos atla add chesina,,, gurthu cheskuntav aniii ... happpy bday ra ❤💥
+</p>
     </main>
   );
 }
