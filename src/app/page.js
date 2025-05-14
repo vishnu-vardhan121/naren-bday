@@ -29,10 +29,10 @@ export default function WishPage() {
         Happy Birthday pilagosss 🎂
         </h1>
         <p className="text-[17px] font-bold px-1 leading-[1.5] absolute bottom-3 bg-black/45">
-          Happy Birthday pilaga , <br />
-          happy bday ra ♾ <br />
-          aa roju hurt aina , antha easy ga normal kaatle, but i remine every single day ra 💗
-          happy bday ra , sorry.. but ...
+          Happy Birthday pilaga💖 , <br />
+          happy bday ra jaan ♾️🥰 <br />
+          aa roju hurt aina , antha easy ga normal kaatle, but i remind you both every single day ra 💗
+          happy bday ra , sorry ra .. but ...
           okay good night ra ,,143 ra 💗....
         </p>
       </div>
